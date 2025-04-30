@@ -1,0 +1,5 @@
+{:paths ["src" "notebooks"]
+ :deps {org.clojure/core.async {:mvn/version "1.9.808-alpha1"}
+        io.github.clojure/core.async.flow-monitor {:git/tag "v0.1.0" :git/sha "9d02164"}
+        org.scicloj/clay {:mvn/version "2-beta41"}
+        dorothy/dorothy {:mvn/version "0.0.7"}}}
